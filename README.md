@@ -63,5 +63,4 @@ To try the code you can do the following steps:
 
 3) Add the source file of this repo in "proj.andorid/jni/Android.mk"
 
-*** Contact ***
-drakon.cocos@gmail.com
+Contact: drakon.cocos@gmail.com
