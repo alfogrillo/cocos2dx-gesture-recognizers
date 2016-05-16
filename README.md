@@ -1,6 +1,8 @@
 Cocos2d-x Gesture Recognizers
+=============================
 
-*** WHAT ***
+What
+----------
 
 This project is an extension of Cocos2d-x that provide touch Gesture Recognizers.
 
@@ -26,7 +28,8 @@ Demo video (with a little bit different test scene):
 
 https://www.youtube.com/watch?v=Gnhj_x4aOwY
 
-*** HOW ***
+How
+----------
 
 The repository contains two folders inside Classes:
 - Gestures
@@ -38,15 +41,13 @@ To try the code you can do the following steps:
 
 - iOS
 
-1) Create a new cocos2d-x project
+1. Create a new cocos2d-x project
 	
 	cocos new -l cpp <project name>
 
-2) Delete Classes e Resources classes of the sample project and add those of this repository
-
-3) Update your Xcode project with Classes and Resources folders
-
-4) Enable multi touch in file ios/AppController.mm. The line you must modify should look like this:
+2. Delete Classes e Resources classes of the sample project and add those of this repository
+3. Update your Xcode project with Classes and Resources folders
+4. Enable multi touch in file ios/AppController.mm. The line you must modify should look like this:
 
 	[eaglView setMultipleTouchEnabled:YES]
 
@@ -55,12 +56,12 @@ To try the code you can do the following steps:
 
 - Android
 
-1) Create a new cocos2d-x project
+1. Create a new cocos2d-x project
 	
 	cocos new -l cpp <project name>
 
-2) Delete Classes e Resources classes of the sample project and add those of this repository
-
-3) Add the source file of this repo in "proj.andorid/jni/Android.mk"
+2. Delete Classes e Resources classes of the sample project and add those of this repository
+3. Add the source file of this repo in "proj.andorid/jni/Android.mk"
 
 Contact: drakon.cocos@gmail.com
+License: MIT License(https://opensource.org/licenses/MIT)
