@@ -1,9 +1,6 @@
 Cocos2d-x Gesture Recognizers
 =============================
 
-What
-----------
-
 This project is an extension of Cocos2d-x that provide touch Gesture Recognizers.
 
 The classes recognize the following gestures:
@@ -28,7 +25,7 @@ Demo video (with a little bit different test scene):
 
 https://www.youtube.com/watch?v=Gnhj_x4aOwY
 
-How
+How to use the classes
 ----------
 
 The repository contains two folders inside Classes:
@@ -39,7 +36,7 @@ The actual gesture recognition require ONLY the "Gestures" folder.
 The "Test" folder contains various example scenes.
 To try the code you can do the following steps:
 
-- iOS
+**iOS**
 
 1. Create a new cocos2d-x project
 	
@@ -54,7 +51,7 @@ To try the code you can do the following steps:
    see http://www.cocos2d-x.org/wiki/How_to_Enable_Multi-Touch for further information
 
 
-- Android
+**Android**
 
 1. Create a new cocos2d-x project
 	
