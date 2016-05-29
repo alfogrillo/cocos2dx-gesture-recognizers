@@ -4,6 +4,8 @@
 #include "PanScene.h"
 #include "SwipeScene.h"
 #include "ChildScene.h"
+#include "ScrollViewScene.h"
+#include "EnableScrollViewTest.h"
 
 USING_NS_CC;
 
@@ -36,6 +38,9 @@ bool MainScene::init()
     m->addMenuEntry<SwipeScene>("Swipe, Long Press");
     m->addMenuEntry<PanScene>("Three fingers Pan");
     m->addMenuEntry<ChildScene>("Recognizer as child");
+#ifdef COCOS2D_3_11
+    m->addMenuEntry<ScrollViewScene>("Custom Scroll View");
+#endif
     addChild(m);
     return true;
 }
