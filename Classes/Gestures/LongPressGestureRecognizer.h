@@ -40,13 +40,13 @@ private:
     LongPressGestureRecognizer(float timeout, uint finger);
     virtual ~LongPressGestureRecognizer();
     
-    void timeout(float dt);
+    void timeout(float dt) override;
     void reset();
     
-    bool onTouchBegan(Touch* touch, Event* ev);
-    void onTouchMoved(Touch* touch, Event* ev);
-    void onTouchCancelled(Touch* touch, Event* ev);
-    void onTouchEnded(Touch* touch, Event* ev);
+    bool onTouchBegan(Touch* touch, Event* ev) override;
+    void onTouchMoved(Touch* touch, Event* ev) override;
+    void onTouchCancelled(Touch* touch, Event* ev) override;
+    void onTouchEnded(Touch* touch, Event* ev) override;
 };
 
 NS_CC_END

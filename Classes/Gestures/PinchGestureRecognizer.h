@@ -49,10 +49,10 @@ private:
     float computePinchFactor(const TouchesMap& newTouches) const;
     float computeAngle(const TouchesMap& newTouches) const;
     
-    bool onTouchBegan(Touch* touch, Event* ev);
-    void onTouchMoved(Touch* touch, Event* ev);
-    void onTouchCancelled(Touch* touch, Event* ev);
-    void onTouchEnded(Touch* touch, Event* ev);
+    bool onTouchBegan(Touch* touch, Event* ev) override;
+    void onTouchMoved(Touch* touch, Event* ev) override;
+    void onTouchCancelled(Touch* touch, Event* ev) override;
+    void onTouchEnded(Touch* touch, Event* ev) override;
 };
 
 NS_CC_END
