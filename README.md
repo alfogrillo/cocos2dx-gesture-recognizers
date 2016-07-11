@@ -30,23 +30,23 @@ How to build the sample projects
 
 **iOS**
 
-1. Create a new cocos2d-x project
+- Create a new cocos2d-x project:
 ```
 	cocos new -l cpp TEST
 ```
-2. Copy the 'cocos2d' folder from 'TEST' to the repository root folder
-3. Open the Xcode project inside the 'proj.ios_mac' folder
-4. Build
+- Copy the 'cocos2d' folder from 'TEST' to the repository root folder
+- Open the Xcode project inside the 'proj.ios_mac' folder
+- Build
 
 **Android**
 
-1. Create a new cocos2d-x project
+- Create a new cocos2d-x project:
 ```
 	cocos new -l cpp TEST
 ```
-2. Copy the 'cocos2d' folder from 'TEST' to the repository root folder
-3. With terminal go inside the repository root folder
-4. Run
+- Copy the 'cocos2d' folder from 'TEST' to the repository root folder
+- With terminal go inside the repository root folder
+- Run:
 ```
 	cocos run -s . -p android --android-studio
 ```
@@ -65,13 +65,13 @@ To try the code you can do the following steps:
 
 **iOS**
 
-1. Create a new cocos2d-x project
+- Create a new cocos2d-x project:
 ```
 	cocos new -l cpp <project name>
 ```
-2. Delete Classes e Resources classes of the sample project and add those of this repository
-3. Update your Xcode project with Classes and Resources folders
-4. Enable multi touch in file `ios/AppController.mm`. The line you must modify should look like this:
+- Delete Classes e Resources classes of the sample project and add those of this repository
+- Update your Xcode project with Classes and Resources folders
+- Enable multi touch in file `ios/AppController.mm`. The line you must modify should look like this:
 ```
 	[eaglView setMultipleTouchEnabled:YES]
 ```
