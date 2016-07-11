@@ -81,12 +81,12 @@ To try the code you can do the following steps:
 
 **Android**
 
-1. Create a new cocos2d-x project
+- Create a new cocos2d-x project:
 ```
 	cocos new -l cpp <project name>
 ```
-2. Delete Classes e Resources classes of the sample project and add those of this repository
-3. Add the source file of this repo in `proj.andorid/jni/Android.mk`
+- Delete Classes e Resources classes of the sample project and add those of this repository
+- Add the source file of this repo in `proj.andorid/jni/Android.mk`
 
 Contact: drakon.cocos@gmail.com
 
