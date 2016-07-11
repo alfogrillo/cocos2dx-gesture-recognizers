@@ -25,7 +25,36 @@ Demo video (with a little bit different test scene):
 
 https://www.youtube.com/watch?v=Gnhj_x4aOwY
 
-How to use the classes
+How to build the sample projects
+----------
+
+**iOS**
+
+1. Create a new cocos2d-x project
+```
+	cocos new -l cpp TEST
+```
+
+2. Copy the 'cocos2d' folder from 'TEST' to the repository root folder
+3. Open the Xcode project inside the 'proj.ios_mac' folder
+4. Build
+
+**Android**
+
+1. Create a new cocos2d-x project
+```
+	cocos new -l cpp TEST
+```
+
+2. Copy the 'cocos2d' folder from 'TEST' to the repository root folder
+3. With terminal go inside the repository root folder
+4. Run
+```
+	cocos run -s . -p android --android-studio
+```
+
+
+How to integrate gestures code inside a new project
 ----------
 
 The repository contains two folders inside Classes:
@@ -65,4 +94,4 @@ To try the code you can do the following steps:
 
 Contact: drakon.cocos@gmail.com
 
-License: MIT License(https://opensource.org/licenses/MIT)
+License: MIT License (https://opensource.org/licenses/MIT)
