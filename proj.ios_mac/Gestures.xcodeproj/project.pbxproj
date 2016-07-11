@@ -20,10 +20,6 @@
 		46880B7E19C43A67006E1F66 /* CloseSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7719C43A67006E1F66 /* CloseSelected.png */; };
 		46880B8119C43A67006E1F66 /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7A19C43A67006E1F66 /* HelloWorld.png */; };
 		46880B8219C43A67006E1F66 /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7A19C43A67006E1F66 /* HelloWorld.png */; };
-		46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
-		46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
-		46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */; };
-		46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
 		503AE10017EB989F00D1A890 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FB17EB989F00D1A890 /* AppController.mm */; };
 		503AE10117EB989F00D1A890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FC17EB989F00D1A890 /* main.m */; };
@@ -67,6 +63,39 @@
 		D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
 		D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
 		D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B0611A1803AB670077942B /* CoreMotion.framework */; };
+		DE46C3641D33F192005A5397 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE46C3631D33F192005A5397 /* CoreText.framework */; };
+		DEADF6251D33EDDC0077EA2A /* GestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF6031D33EDDC0077EA2A /* GestureRecognizer.cpp */; };
+		DEADF6261D33EDDC0077EA2A /* GestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF6031D33EDDC0077EA2A /* GestureRecognizer.cpp */; };
+		DEADF6271D33EDDC0077EA2A /* GestureRecognizerUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF6051D33EDDC0077EA2A /* GestureRecognizerUtils.cpp */; };
+		DEADF6281D33EDDC0077EA2A /* GestureRecognizerUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF6051D33EDDC0077EA2A /* GestureRecognizerUtils.cpp */; };
+		DEADF6291D33EDDC0077EA2A /* LongPressGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF6071D33EDDC0077EA2A /* LongPressGestureRecognizer.cpp */; };
+		DEADF62A1D33EDDC0077EA2A /* LongPressGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF6071D33EDDC0077EA2A /* LongPressGestureRecognizer.cpp */; };
+		DEADF62B1D33EDDC0077EA2A /* PanGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF6091D33EDDC0077EA2A /* PanGestureRecognizer.cpp */; };
+		DEADF62C1D33EDDC0077EA2A /* PanGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF6091D33EDDC0077EA2A /* PanGestureRecognizer.cpp */; };
+		DEADF62D1D33EDDC0077EA2A /* PinchGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF60B1D33EDDC0077EA2A /* PinchGestureRecognizer.cpp */; };
+		DEADF62E1D33EDDC0077EA2A /* PinchGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF60B1D33EDDC0077EA2A /* PinchGestureRecognizer.cpp */; };
+		DEADF62F1D33EDDC0077EA2A /* SwipeGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF60D1D33EDDC0077EA2A /* SwipeGestureRecognizer.cpp */; };
+		DEADF6301D33EDDC0077EA2A /* SwipeGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF60D1D33EDDC0077EA2A /* SwipeGestureRecognizer.cpp */; };
+		DEADF6311D33EDDC0077EA2A /* TapGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF60F1D33EDDC0077EA2A /* TapGestureRecognizer.cpp */; };
+		DEADF6321D33EDDC0077EA2A /* TapGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF60F1D33EDDC0077EA2A /* TapGestureRecognizer.cpp */; };
+		DEADF6331D33EDDC0077EA2A /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF6121D33EDDC0077EA2A /* AppDelegate.cpp */; };
+		DEADF6341D33EDDC0077EA2A /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF6121D33EDDC0077EA2A /* AppDelegate.cpp */; };
+		DEADF6351D33EDDC0077EA2A /* ChildScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF6141D33EDDC0077EA2A /* ChildScene.cpp */; };
+		DEADF6361D33EDDC0077EA2A /* ChildScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF6141D33EDDC0077EA2A /* ChildScene.cpp */; };
+		DEADF6371D33EDDC0077EA2A /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF6171D33EDDC0077EA2A /* MainScene.cpp */; };
+		DEADF6381D33EDDC0077EA2A /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF6171D33EDDC0077EA2A /* MainScene.cpp */; };
+		DEADF6391D33EDDC0077EA2A /* PanScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF6191D33EDDC0077EA2A /* PanScene.cpp */; };
+		DEADF63A1D33EDDC0077EA2A /* PanScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF6191D33EDDC0077EA2A /* PanScene.cpp */; };
+		DEADF63B1D33EDDC0077EA2A /* PinchScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF61B1D33EDDC0077EA2A /* PinchScene.cpp */; };
+		DEADF63C1D33EDDC0077EA2A /* PinchScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF61B1D33EDDC0077EA2A /* PinchScene.cpp */; };
+		DEADF63D1D33EDDC0077EA2A /* ScrollableMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF61D1D33EDDC0077EA2A /* ScrollableMenu.cpp */; };
+		DEADF63E1D33EDDC0077EA2A /* ScrollableMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF61D1D33EDDC0077EA2A /* ScrollableMenu.cpp */; };
+		DEADF63F1D33EDDC0077EA2A /* ScrollViewCustom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF61F1D33EDDC0077EA2A /* ScrollViewCustom.cpp */; };
+		DEADF6401D33EDDC0077EA2A /* ScrollViewCustom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF61F1D33EDDC0077EA2A /* ScrollViewCustom.cpp */; };
+		DEADF6411D33EDDC0077EA2A /* ScrollViewScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF6211D33EDDC0077EA2A /* ScrollViewScene.cpp */; };
+		DEADF6421D33EDDC0077EA2A /* ScrollViewScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF6211D33EDDC0077EA2A /* ScrollViewScene.cpp */; };
+		DEADF6431D33EDDC0077EA2A /* SwipeScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF6231D33EDDC0077EA2A /* SwipeScene.cpp */; };
+		DEADF6441D33EDDC0077EA2A /* SwipeScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEADF6231D33EDDC0077EA2A /* SwipeScene.cpp */; };
 		ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A7B1B68A1F400C3958E /* libiconv.dylib */; };
 		ED545A7E1B68A1FA00C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A7D1B68A1FA00C3958E /* libiconv.dylib */; };
 /* End PBXBuildFile section */
@@ -100,6 +129,13 @@
 			remoteGlobalIDString = A07A4C241783777C0073F6A7;
 			remoteInfo = "cocos2dx iOS";
 		};
+		DEADF5FA1D33ED460077EA2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 507B40FD1C31BDD30067B53E;
+			remoteInfo = "libcocos2d tvOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -113,10 +149,6 @@
 		46880B7619C43A67006E1F66 /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseNormal.png; sourceTree = "<group>"; };
 		46880B7719C43A67006E1F66 /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseSelected.png; sourceTree = "<group>"; };
 		46880B7A19C43A67006E1F66 /* HelloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelloWorld.png; sourceTree = "<group>"; };
-		46880B8419C43A87006E1F66 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
-		46880B8519C43A87006E1F66 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldScene.cpp; sourceTree = "<group>"; };
-		46880B8719C43A87006E1F66 /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldScene.h; sourceTree = "<group>"; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		503AE0F717EB97AB00D1A890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503AE0FA17EB989F00D1A890 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ios/AppController.h; sourceTree = SOURCE_ROOT; };
@@ -161,6 +193,40 @@
 		D44C620D132DFF430009C878 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D44C620F132DFF4E0009C878 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D6B0611A1803AB670077942B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		DE46C3631D33F192005A5397 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		DEADF6031D33EDDC0077EA2A /* GestureRecognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GestureRecognizer.cpp; sourceTree = "<group>"; };
+		DEADF6041D33EDDC0077EA2A /* GestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureRecognizer.h; sourceTree = "<group>"; };
+		DEADF6051D33EDDC0077EA2A /* GestureRecognizerUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GestureRecognizerUtils.cpp; sourceTree = "<group>"; };
+		DEADF6061D33EDDC0077EA2A /* GestureRecognizerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureRecognizerUtils.h; sourceTree = "<group>"; };
+		DEADF6071D33EDDC0077EA2A /* LongPressGestureRecognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LongPressGestureRecognizer.cpp; sourceTree = "<group>"; };
+		DEADF6081D33EDDC0077EA2A /* LongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		DEADF6091D33EDDC0077EA2A /* PanGestureRecognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PanGestureRecognizer.cpp; sourceTree = "<group>"; };
+		DEADF60A1D33EDDC0077EA2A /* PanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanGestureRecognizer.h; sourceTree = "<group>"; };
+		DEADF60B1D33EDDC0077EA2A /* PinchGestureRecognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PinchGestureRecognizer.cpp; sourceTree = "<group>"; };
+		DEADF60C1D33EDDC0077EA2A /* PinchGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchGestureRecognizer.h; sourceTree = "<group>"; };
+		DEADF60D1D33EDDC0077EA2A /* SwipeGestureRecognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SwipeGestureRecognizer.cpp; sourceTree = "<group>"; };
+		DEADF60E1D33EDDC0077EA2A /* SwipeGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeGestureRecognizer.h; sourceTree = "<group>"; };
+		DEADF60F1D33EDDC0077EA2A /* TapGestureRecognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TapGestureRecognizer.cpp; sourceTree = "<group>"; };
+		DEADF6101D33EDDC0077EA2A /* TapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapGestureRecognizer.h; sourceTree = "<group>"; };
+		DEADF6121D33EDDC0077EA2A /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
+		DEADF6131D33EDDC0077EA2A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEADF6141D33EDDC0077EA2A /* ChildScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChildScene.cpp; sourceTree = "<group>"; };
+		DEADF6151D33EDDC0077EA2A /* ChildScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildScene.h; sourceTree = "<group>"; };
+		DEADF6161D33EDDC0077EA2A /* EnableScrollViewTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnableScrollViewTest.h; sourceTree = "<group>"; };
+		DEADF6171D33EDDC0077EA2A /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainScene.cpp; sourceTree = "<group>"; };
+		DEADF6181D33EDDC0077EA2A /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
+		DEADF6191D33EDDC0077EA2A /* PanScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PanScene.cpp; sourceTree = "<group>"; };
+		DEADF61A1D33EDDC0077EA2A /* PanScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanScene.h; sourceTree = "<group>"; };
+		DEADF61B1D33EDDC0077EA2A /* PinchScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PinchScene.cpp; sourceTree = "<group>"; };
+		DEADF61C1D33EDDC0077EA2A /* PinchScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchScene.h; sourceTree = "<group>"; };
+		DEADF61D1D33EDDC0077EA2A /* ScrollableMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScrollableMenu.cpp; sourceTree = "<group>"; };
+		DEADF61E1D33EDDC0077EA2A /* ScrollableMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollableMenu.h; sourceTree = "<group>"; };
+		DEADF61F1D33EDDC0077EA2A /* ScrollViewCustom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScrollViewCustom.cpp; sourceTree = "<group>"; };
+		DEADF6201D33EDDC0077EA2A /* ScrollViewCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewCustom.h; sourceTree = "<group>"; };
+		DEADF6211D33EDDC0077EA2A /* ScrollViewScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScrollViewScene.cpp; sourceTree = "<group>"; };
+		DEADF6221D33EDDC0077EA2A /* ScrollViewScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewScene.h; sourceTree = "<group>"; };
+		DEADF6231D33EDDC0077EA2A /* SwipeScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SwipeScene.cpp; sourceTree = "<group>"; };
+		DEADF6241D33EDDC0077EA2A /* SwipeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeScene.h; sourceTree = "<group>"; };
 		ED545A7B1B68A1F400C3958E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libiconv.dylib; sourceTree = DEVELOPER_DIR; };
 		ED545A7D1B68A1FA00C3958E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -170,6 +236,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE46C3641D33F192005A5397 /* CoreText.framework in Frameworks */,
 				ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */,
 				52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */,
 				1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */,
@@ -237,6 +304,7 @@
 			children = (
 				1AC6FAF9180E9839004C840B /* libcocos2d Mac.a */,
 				1AC6FB07180E9839004C840B /* libcocos2d iOS.a */,
+				DEADF5FB1D33ED460077EA2A /* libcocos2d tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -258,6 +326,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DE46C3631D33F192005A5397 /* CoreText.framework */,
 				ED545A7D1B68A1FA00C3958E /* libiconv.dylib */,
 				ED545A7B1B68A1F400C3958E /* libiconv.dylib */,
 				8262943D1AAF051F00CB7CF7 /* Security.framework */,
@@ -297,10 +366,8 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
-				46880B8519C43A87006E1F66 /* AppDelegate.h */,
-				46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */,
-				46880B8719C43A87006E1F66 /* HelloWorldScene.h */,
+				DEADF6021D33EDDC0077EA2A /* Gestures */,
+				DEADF6111D33EDDC0077EA2A /* Test */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -352,6 +419,53 @@
 			name = Icons;
 			path = ios;
 			sourceTree = SOURCE_ROOT;
+		};
+		DEADF6021D33EDDC0077EA2A /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				DEADF6031D33EDDC0077EA2A /* GestureRecognizer.cpp */,
+				DEADF6041D33EDDC0077EA2A /* GestureRecognizer.h */,
+				DEADF6051D33EDDC0077EA2A /* GestureRecognizerUtils.cpp */,
+				DEADF6061D33EDDC0077EA2A /* GestureRecognizerUtils.h */,
+				DEADF6071D33EDDC0077EA2A /* LongPressGestureRecognizer.cpp */,
+				DEADF6081D33EDDC0077EA2A /* LongPressGestureRecognizer.h */,
+				DEADF6091D33EDDC0077EA2A /* PanGestureRecognizer.cpp */,
+				DEADF60A1D33EDDC0077EA2A /* PanGestureRecognizer.h */,
+				DEADF60B1D33EDDC0077EA2A /* PinchGestureRecognizer.cpp */,
+				DEADF60C1D33EDDC0077EA2A /* PinchGestureRecognizer.h */,
+				DEADF60D1D33EDDC0077EA2A /* SwipeGestureRecognizer.cpp */,
+				DEADF60E1D33EDDC0077EA2A /* SwipeGestureRecognizer.h */,
+				DEADF60F1D33EDDC0077EA2A /* TapGestureRecognizer.cpp */,
+				DEADF6101D33EDDC0077EA2A /* TapGestureRecognizer.h */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		DEADF6111D33EDDC0077EA2A /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				DEADF6121D33EDDC0077EA2A /* AppDelegate.cpp */,
+				DEADF6131D33EDDC0077EA2A /* AppDelegate.h */,
+				DEADF6141D33EDDC0077EA2A /* ChildScene.cpp */,
+				DEADF6151D33EDDC0077EA2A /* ChildScene.h */,
+				DEADF6161D33EDDC0077EA2A /* EnableScrollViewTest.h */,
+				DEADF6171D33EDDC0077EA2A /* MainScene.cpp */,
+				DEADF6181D33EDDC0077EA2A /* MainScene.h */,
+				DEADF6191D33EDDC0077EA2A /* PanScene.cpp */,
+				DEADF61A1D33EDDC0077EA2A /* PanScene.h */,
+				DEADF61B1D33EDDC0077EA2A /* PinchScene.cpp */,
+				DEADF61C1D33EDDC0077EA2A /* PinchScene.h */,
+				DEADF61D1D33EDDC0077EA2A /* ScrollableMenu.cpp */,
+				DEADF61E1D33EDDC0077EA2A /* ScrollableMenu.h */,
+				DEADF61F1D33EDDC0077EA2A /* ScrollViewCustom.cpp */,
+				DEADF6201D33EDDC0077EA2A /* ScrollViewCustom.h */,
+				DEADF6211D33EDDC0077EA2A /* ScrollViewScene.cpp */,
+				DEADF6221D33EDDC0077EA2A /* ScrollViewScene.h */,
+				DEADF6231D33EDDC0077EA2A /* SwipeScene.cpp */,
+				DEADF6241D33EDDC0077EA2A /* SwipeScene.h */,
+			);
+			path = Test;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -441,6 +555,13 @@
 			remoteRef = 1AC6FB06180E9839004C840B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		DEADF5FB1D33ED460077EA2A /* libcocos2d tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d tvOS.a";
+			remoteRef = DEADF5FA1D33ED460077EA2A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -494,11 +615,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
-				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				DEADF63B1D33EDDC0077EA2A /* PinchScene.cpp in Sources */,
+				DEADF62F1D33EDDC0077EA2A /* SwipeGestureRecognizer.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				DEADF6251D33EDDC0077EA2A /* GestureRecognizer.cpp in Sources */,
+				DEADF6411D33EDDC0077EA2A /* ScrollViewScene.cpp in Sources */,
+				DEADF6271D33EDDC0077EA2A /* GestureRecognizerUtils.cpp in Sources */,
+				DEADF62B1D33EDDC0077EA2A /* PanGestureRecognizer.cpp in Sources */,
+				DEADF62D1D33EDDC0077EA2A /* PinchGestureRecognizer.cpp in Sources */,
+				DEADF6391D33EDDC0077EA2A /* PanScene.cpp in Sources */,
+				DEADF6291D33EDDC0077EA2A /* LongPressGestureRecognizer.cpp in Sources */,
+				DEADF6331D33EDDC0077EA2A /* AppDelegate.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				DEADF63D1D33EDDC0077EA2A /* ScrollableMenu.cpp in Sources */,
+				DEADF6351D33EDDC0077EA2A /* ChildScene.cpp in Sources */,
+				DEADF6431D33EDDC0077EA2A /* SwipeScene.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				DEADF6311D33EDDC0077EA2A /* TapGestureRecognizer.cpp in Sources */,
+				DEADF63F1D33EDDC0077EA2A /* ScrollViewCustom.cpp in Sources */,
+				DEADF6371D33EDDC0077EA2A /* MainScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,9 +641,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				DEADF6381D33EDDC0077EA2A /* MainScene.cpp in Sources */,
+				DEADF63E1D33EDDC0077EA2A /* ScrollableMenu.cpp in Sources */,
+				DEADF62E1D33EDDC0077EA2A /* PinchGestureRecognizer.cpp in Sources */,
+				DEADF63C1D33EDDC0077EA2A /* PinchScene.cpp in Sources */,
+				DEADF6401D33EDDC0077EA2A /* ScrollViewCustom.cpp in Sources */,
+				DEADF63A1D33EDDC0077EA2A /* PanScene.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
-				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				DEADF6341D33EDDC0077EA2A /* AppDelegate.cpp in Sources */,
+				DEADF6361D33EDDC0077EA2A /* ChildScene.cpp in Sources */,
+				DEADF6281D33EDDC0077EA2A /* GestureRecognizerUtils.cpp in Sources */,
+				DEADF6261D33EDDC0077EA2A /* GestureRecognizer.cpp in Sources */,
+				DEADF6441D33EDDC0077EA2A /* SwipeScene.cpp in Sources */,
+				DEADF6301D33EDDC0077EA2A /* SwipeGestureRecognizer.cpp in Sources */,
+				DEADF6421D33EDDC0077EA2A /* ScrollViewScene.cpp in Sources */,
+				DEADF6321D33EDDC0077EA2A /* TapGestureRecognizer.cpp in Sources */,
+				DEADF62A1D33EDDC0077EA2A /* LongPressGestureRecognizer.cpp in Sources */,
+				DEADF62C1D33EDDC0077EA2A /* PanGestureRecognizer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,7 +681,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COMPRESS_PNG_FILES = NO;
 				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -555,7 +704,7 @@
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END)";
+				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END) \"$(SRCROOT)/../Classes\"";
 				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Debug;
@@ -564,7 +713,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COMPRESS_PNG_FILES = NO;
 				ENABLE_BITCODE = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -585,7 +734,7 @@
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END)";
+				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END) \"$(SRCROOT)/../Classes\"";
 				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Release;
