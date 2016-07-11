@@ -34,7 +34,6 @@ How to build the sample projects
 ```
 	cocos new -l cpp TEST
 ```
-
 2. Copy the 'cocos2d' folder from 'TEST' to the repository root folder
 3. Open the Xcode project inside the 'proj.ios_mac' folder
 4. Build
@@ -45,7 +44,6 @@ How to build the sample projects
 ```
 	cocos new -l cpp TEST
 ```
-
 2. Copy the 'cocos2d' folder from 'TEST' to the repository root folder
 3. With terminal go inside the repository root folder
 4. Run
@@ -71,7 +69,6 @@ To try the code you can do the following steps:
 ```
 	cocos new -l cpp <project name>
 ```
-
 2. Delete Classes e Resources classes of the sample project and add those of this repository
 3. Update your Xcode project with Classes and Resources folders
 4. Enable multi touch in file `ios/AppController.mm`. The line you must modify should look like this:
@@ -88,7 +85,6 @@ To try the code you can do the following steps:
 ```
 	cocos new -l cpp <project name>
 ```
-
 2. Delete Classes e Resources classes of the sample project and add those of this repository
 3. Add the source file of this repo in `proj.andorid/jni/Android.mk`
 
