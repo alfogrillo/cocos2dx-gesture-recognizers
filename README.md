@@ -1,7 +1,7 @@
 Cocos2d-x Gesture Recognizers
 =============================
 
-<div style="text-align:center"><img src="http://www.cocos2d-x.org/attachments/801/cocos2dx_portrait.png" width=100></div>
+<p align="center"><img src="http://www.cocos2d-x.org/attachments/802/cocos2dx_landscape.png" width=350></p>
 
 This project is an extension of Cocos2d-x that provide touch Gesture Recognizers.
 
